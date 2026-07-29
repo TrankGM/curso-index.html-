@@ -21,8 +21,23 @@ list-style: square;
 
 }
 
-#msg {
+ {
 
 font-family: monospace;
 
 } .light-theme { color: black; background: #fafafa;}
+ {
+
+9e;}
+ :root {--green: #00ff00; 
+--white: #ffffff;
+--black: #000000;
+} 
+.light-theme {--bg: var(--green);
+--fontColor: var(--black);}
+.dark-theme {--bg: var(--black);
+--fontColor: var(--green); }
+* {Color: var(fontColor);
+font-family: helvetica;}
+body {
+  background: var(--bg);}
